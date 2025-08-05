@@ -1,12 +1,22 @@
 # Maratona Java - DevDojo
 
-Este repositório contém os exercícios e exemplos práticos feitos durante a Maratona Java do canal DevDojo no YouTube.
+🚀 Este repositório contém os exercícios práticos feitos durante a **Maratona Java** do canal [DevDojo](https://www.youtube.com/@devdojo), com foco em aprendizado de fundamentos da linguagem Java.
 
-## Tópicos abordados até agora
+## 👨‍💻 Tópicos estudados até agora
 
 - Tipos primitivos e variáveis
 - Operadores aritméticos, lógicos e relacionais
 - Estruturas condicionais (if, else, switch)
+- Boas práticas com código limpo
 
-## Progresso
-- Aula atual: 26
+## 📂 Estrutura
+
+```bash
+src/
+└── AcademyDev/
+    ├── Aula01Dev.java
+    ├── Aula02TipoPrimitivos.java
+    ├── Aula03Operadores.java
+    ├── Aula04OperadorAtribuicao.java
+    ├── Aula04OperadorLogico.java
+    └── Aula05EstruturasCondicionais01~06.java
