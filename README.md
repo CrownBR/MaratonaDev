@@ -158,10 +158,11 @@
 - Retorno de tipos primitivos
 - Impacto do retorno no fluxo de execução
 
-### ✅ Aula 47 - Métodos pt 04 - Retorno pt 02
+✅ Aula 47 - Métodos pt 04 - Retorno pt 02
 - Retorno de objetos
-- Diferença entre retornar um novo objeto e uma referência existente
-- Cuidados com mutabilidade de objetos retornados
+- Diferença entre retornar um novo objeto e uma referência já existente
+- Cuidados quando o objeto retornado pode ser alterado depois (mudanças indesejadas)
+
 
 ## 📁 Estrutura do Projeto
 ```bash
