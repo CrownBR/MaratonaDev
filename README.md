@@ -168,31 +168,36 @@
 ```bash
 src/
 └── AcademyDev/
-    ├── Aula01Dev.java
-    ├── Aula02TiposPrimitivos.java
-    ├── Aula03Variaveis.java
-    ├── Aula04Operadores.java
-    ├── Aula05Condicionais.java
-    ├── Aula06Switch.java
+    ├── Aula01Dev.java                    
+    ├── Aula02TiposPrimitivos.java        
+    ├── Aula03Operadores.java              
+    ├── Aula04OperadorAtribuicao.java      
+    ├── Aula04OperadorLogico.java         
+    ├── Aula05EstruturasCondicionais01.java
+    ├── Aula05EstruturasCondicionais02.java
+    ├── Aula05EstruturasCondicionais03.java
+    ├── Aula05EstruturasCondicionais04.java
+    ├── Aula05EstruturasCondicionais05.java
+    ├── Aula05EstruturasCondicionais06.java
+    ├── Aula06EstruturasDeRepeticao01.java
+    ├── Aula06EstruturasDeRepeticao02.java
+    ├── Aula06EstruturasDeRepeticao03.java
+    ├── Aula06EstruturasDeRepeticao04.java
+    ├── Aula06EstruturasDeRepeticao05.java
     ├── Aula07Arrays01.java
-    ├── Aula08ArraysMultidimensionais01.java  (Aula 38)
-    ├── Aula08ArraysMultidimensionais02.java  (Aula 38)
-    ├── Aula09Laços.java
-    ├── Aula10Funcoes.java
-    ├── Aula26SwitchExercicio.java
-    ├── Aula27Repeticao.java
-    ├── Aula31Continue.java
-    ├── Aula32Arrays01.java
-    ├── Aula33Arrays02.java
-    ├── Aula34Arrays03.java
-    ├── Aula35ArraysMultidimensionais01.java
-    ├── Aula39Estudante.java  (Aula 39 - classe Estudante)
-    ├── Aula40EstudanteTest01.java  (Aula 40 - teste 1)
-    ├── Aula40EstudanteTest02.java  (Aula 40 - teste 2)
-    ├── Aula41Coesao.java                           
-    ├── Aula42ExercicioClasses.java                
-    ├── Aula43ReferenciaObjetos.java              
-    ├── Aula44Metodos01.java                        
-    ├── Aula45Metodos02.java                       
-    ├── Aula46Metodos03.java                         
-    ├── Aula47Metodos04.java                        
+    ├── Aula07Arrays02.java
+    ├── Aula07Arrays03.java
+    ├── Aula08ArraysMultidimensionais01.java
+    ├── Aula08ArraysMultidimensionais02.java
+    ├── Aula39Estudante.java            
+    ├── Aula39Professor.java            
+    ├── Aula39Carro.java                 
+    ├── Aula40EstudanteTest01.java          
+    ├── Aula40EstudanteTest02.java        
+    ├── Aula40ProfessorTest01.java          
+    ├── Aula40CarroTest01.java              
+    ├── Aula44Calculadora.java              
+    ├── Aula44CalculadoraTest01.java       
+    ├── Aula44CalculadoraTest02.java        
+    ├── Aula44CalculadoraTest03.java       
+                    
