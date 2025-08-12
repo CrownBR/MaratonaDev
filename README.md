@@ -199,5 +199,8 @@ src/
     ├── Aula44Calculadora.java              
     ├── Aula44CalculadoraTest01.java       
     ├── Aula44CalculadoraTest02.java        
-    ├── Aula44CalculadoraTest03.java       
+    ├── Aula44CalculadoraTest03.java
+    ├── Aula45Metodos02.java                       
+    ├── Aula46Metodos03.java                         
+    ├── Aula47Metodos04.java      
                     
