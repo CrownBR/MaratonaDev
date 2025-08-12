@@ -128,6 +128,41 @@
 
 ---
 
+### ✅ Aula 41 - Coesão
+- Conceito de coesão em POO
+- Importância de manter métodos e atributos relacionados
+- Boas práticas para organização interna de classes
+
+### ✅ Aula 42 - Exercício Classes
+- Exercício prático criando classes e objetos
+- Implementação de atributos e métodos
+- Testando instâncias no `main`
+
+### ✅ Aula 43 - Referência de Objetos
+- Como variáveis de referência funcionam
+- Comparação entre duas referências
+- Atribuição de objetos e apontamento para a mesma área de memória
+
+### ✅ Aula 44 - Métodos pt 01
+- Estrutura de um método (assinatura, corpo e retorno)
+- Diferença entre métodos `void` e métodos com retorno
+- Convenções de nomenclatura
+
+### ✅ Aula 45 - Métodos pt 02 - Parâmetros
+- Passagem de parâmetros por valor e referência
+- Uso de tipos primitivos e objetos como parâmetros
+- Importância de métodos bem definidos
+
+### ✅ Aula 46 - Métodos pt 03 - Retorno pt 01
+- Utilização da palavra-chave `return`
+- Retorno de tipos primitivos
+- Impacto do retorno no fluxo de execução
+
+### ✅ Aula 47 - Métodos pt 04 - Retorno pt 02
+- Retorno de objetos
+- Diferença entre retornar um novo objeto e uma referência existente
+- Cuidados com mutabilidade de objetos retornados
+
 ## 📁 Estrutura do Projeto
 ```bash
 src/
@@ -153,4 +188,10 @@ src/
     ├── Aula39Estudante.java  (Aula 39 - classe Estudante)
     ├── Aula40EstudanteTest01.java  (Aula 40 - teste 1)
     ├── Aula40EstudanteTest02.java  (Aula 40 - teste 2)
-    └── (próximas aulas...)
+    ├── Aula41Coesao.java                           
+    ├── Aula42ExercicioClasses.java                
+    ├── Aula43ReferenciaObjetos.java              
+    ├── Aula44Metodos01.java                        
+    ├── Aula45Metodos02.java                       
+    ├── Aula46Metodos03.java                         
+    ├── Aula47Metodos04.java                        
