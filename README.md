@@ -168,41 +168,28 @@
 ```bash
 src/
 └── AcademyDev/
-    ├── introducao/
-    │    ├── Aula01Dev.java
-    │    ├── Aula02TiposPrimitivos.java
-    │    ├── Aula03Operadores.java
-    │    ├── Aula04OperadorAtribuicao.java
-    │    ├── Aula04OperadorLogico.java
-    │    ├── Aula05EstruturasCondicionais01.java
-    │    ├── Aula05EstruturasCondicionais02.java
-    │    ├── Aula05EstruturasCondicionais03.java
-    │    ├── Aula05EstruturasCondicionais04.java
-    │    ├── Aula05EstruturasCondicionais05.java
-    │    ├── Aula05EstruturasCondicionais06.java
-    │    ├── Aula06EstruturasDeRepeticao01.java
-    │    ├── Aula06EstruturasDeRepeticao02.java
-    │    ├── Aula06EstruturasDeRepeticao03.java
-    │    ├── Aula06EstruturasDeRepeticao04.java
-    │    ├── Aula06EstruturasDeRepeticao05.java
-    │    ├── Aula07Arrays01.java
-    │    ├── Aula07Arrays02.java
-    │    ├── Aula07Arrays03.java
-    │    ├── Aula08ArraysMultidimensionais01.java
-    │    ├── Aula08ArraysMultidimensionais02.java
-    ├── introducaoclasses/
-    │    ├── Estudante.java
-    │    ├── Professor.java
-    │    ├── Carro.java
-    ├── introducaometodos/
-    │    ├── Calculadora.java
-    ├── test/
-    │    ├── EstudanteTest01.java
-    │    ├── EstudanteTest02.java
-    │    ├── ProfessorTest01.java
-    │    ├── CarroTest01.java
-    │    ├── CalculadoraTest01.java
-    │    ├── CalculadoraTest02.java
-    │    ├── CalculadoraTest03.java
+├── introducao/
+│ ├── Aula05EstruturasCondicionais03.java
+│ ├── Aula06EstruturasDeRepeticao01.java
+│ ├── Aula07Arrays01.java
+│ └── Aula08ArraysMultidimensionais01.java
+├── javacore/
+│ ├── introducaoclasses/
+│ │ ├── dominio/
+│ │ │ ├── carro.java
+│ │ │ ├── Estudante.java
+│ │ │ └── Professor.java
+│ │ └── test/
+│ │ ├── carroTest01.java
+│ │ ├── EstudanteTest01.java
+│ │ ├── EstudanteTest02.java
+│ │ └── ProfessorTest01.java
+│ ├── introducaometodos/
+│ │ ├── dominio/
+│ │ │ └── Calculadora.java
+│ │ └── test/
+│ │ ├── CalculadoraTest01.java
+│ │ ├── CalculadoraTest02.java
+│ │ └── CalculadoraTest03.java
   
                     
