@@ -162,37 +162,80 @@
 - Retorno de objetos
 - Diferença entre retornar um novo objeto e uma referência já existente
 - Cuidados quando o objeto retornado pode ser alterado depois (mudanças indesejadas)
+✅ Aulas 48 a 53 — Métodos Avançados e Exercícios
 
+✅ Aula 48 – Parâmetros tipo primitivo
+- Aprendi como passar valores primitivos para métodos
+- Entendi que os tipos primitivos são passados por valor, ou seja, alterações dentro do método não afetam a variável original
+- Pratiquei criando métodos que recebem int, double e char como parâmetros
+
+✅ Aula 49 – Parâmetros tipo referência
+- Aprendi que objetos são passados por referência, ou seja, alterações feitas dentro do método afetam o objeto original
+- Testei isso usando arrays e classes próprias, como Funcionario e Estudante
+
+✅ Aula 50 – Parâmetros tipo referência pt 02
+- Continuei praticando alterações em objetos dentro de métodos
+- Entendi a diferença entre criar um novo objeto dentro do método e alterar o objeto existente
+
+✅ Aula 51 – Referência this
+- Aprendi sobre a palavra-chave this para referir-se ao próprio objeto
+- Usei this para diferenciar atributos da classe de variáveis locais e parâmetros do método
+
+✅ Aula 52 – Varargs
+- Aprendi a usar varargs para passar quantidade variável de argumentos a um método
+- Facilita a criação de métodos que podem receber 1, 2 ou mais valores sem precisar de sobrecarga
+
+✅ Aula 53 – Exercício
+- Coloquei em prática todos os conceitos das aulas anteriores
+- Criei métodos que manipulam tipos primitivos, objetos, arrays e varargs
+- Testei cada método em classes CalculadoraTest, EstudanteTest e FuncionarioTest
 
 ## 📁 Estrutura do Projeto
 ```bash
 src/
 └── AcademyDev/
-    ├── Aula01Dev.java
-    ├── Aula02TiposPrimitivos.java
-    ├── Aula03Variaveis.java
-    ├── Aula04Operadores.java
-    ├── Aula05Condicionais.java
-    ├── Aula06Switch.java
-    ├── Aula07Arrays01.java
-    ├── Aula08ArraysMultidimensionais01.java  (Aula 38)
-    ├── Aula08ArraysMultidimensionais02.java  (Aula 38)
-    ├── Aula09Laços.java
-    ├── Aula10Funcoes.java
-    ├── Aula26SwitchExercicio.java
-    ├── Aula27Repeticao.java
-    ├── Aula31Continue.java
-    ├── Aula32Arrays01.java
-    ├── Aula33Arrays02.java
-    ├── Aula34Arrays03.java
-    ├── Aula35ArraysMultidimensionais01.java
-    ├── Aula39Estudante.java  (Aula 39 - classe Estudante)
-    ├── Aula40EstudanteTest01.java  (Aula 40 - teste 1)
-    ├── Aula40EstudanteTest02.java  (Aula 40 - teste 2)
-    ├── Aula41Coesao.java                           
-    ├── Aula42ExercicioClasses.java                
-    ├── Aula43ReferenciaObjetos.java              
-    ├── Aula44Metodos01.java                        
-    ├── Aula45Metodos02.java                       
-    ├── Aula46Metodos03.java                         
-    ├── Aula47Metodos04.java                        
+    ├── introducao/
+    │   ├── Aula05EstruturasCondicionais03.java
+    │   ├── Aula06EstruturasDeRepeticao01.java
+    │   ├── Aula07Arrays01.java
+    │   └── Aula08ArraysMultidimensionais01.java
+    ├── javacore/
+    │   ├── introducaoclasses/
+    │   │   ├── dominio/
+    │   │   │   ├── carro.java
+    │   │   │   ├── Estudante.java
+    │   │   │   └── Professor.java
+    │   │   └── test/
+    │   │       ├── carroTest01.java
+    │   │       ├── EstudanteTest01.java
+    │   │       ├── EstudanteTest02.java
+    │   │       └── ProfessorTest01.java
+    │   ├── introducaometodos/
+    │   │   ├── dominio/
+    │   │   │   ├── Calculadora.java
+    │   │   │   ├── Estudante.java
+    │   │   │   ├── Funcionario.java
+    │   │   │   ├── ImpressoraEstudante.java
+    │   │   │   └── impressoraFuncionario.java
+    │   │   └── test/
+    │   │       ├── CalculadoraTest01.java
+    │   │       ├── CalculadoraTest02.java
+    │   │       ├── CalculadoraTest03.java
+    │   │       ├── CalculadoraTest04.java
+    │   │       ├── CalculadoraTest05.java
+    │   │       ├── EstudanteTest01.java
+    │   │       ├── EstudanteTest02.java
+    │   │       ├── FuncionarioTest01.java
+    └── Desafios/
+        ├── desafio01.java
+        ├── desafio02.java
+        ├── desafio03.java
+        ├── desafio04.java
+        ├── desafio05.java
+        ├── desafio06.java
+        ├── desafio07.java
+        ├── desafio08.java
+        ├── desafio09.java
+        └── desafio010.java
+  
+                    
