@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 // && (and) || (or) !
 public class Aula04OperadorLogico {
 	public static void main(String[] args) {

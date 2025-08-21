@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 
 public class aula01dev {
 	public static void main (String[] args){

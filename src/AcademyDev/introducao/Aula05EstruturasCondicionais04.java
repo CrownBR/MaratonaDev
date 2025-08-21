@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 
 public class Aula05EstruturasCondicionais04 {
 	// € 0      € 34,712    9.70%

@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 
 public class Aula03Operadores {
 	public static void main(String[] args){

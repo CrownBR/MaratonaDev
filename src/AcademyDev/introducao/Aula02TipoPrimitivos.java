@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 
 public class Aula02TipoPrimitivos {
 	public static void main (String[] args){

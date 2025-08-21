@@ -1,4 +1,4 @@
-package AcademyDev;
+package AcademyDev.introducao;
 
 public class Aula04OperadorAtribuicao {
 	public static void main(String[] args) {
