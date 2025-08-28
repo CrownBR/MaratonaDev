@@ -158,37 +158,68 @@
 - Retorno de tipos primitivos
 - Impacto do retorno no fluxo de execução
 
-✅ Aula 47 - Métodos pt 04 - Retorno pt 02
+### ✅ Aula 47 - Métodos pt 04 - Retorno pt 02
 - Retorno de objetos
 - Diferença entre retornar um novo objeto e uma referência já existente
 - Cuidados quando o objeto retornado pode ser alterado depois (mudanças indesejadas)
-✅ Aulas 48 a 53 — Métodos Avançados e Exercícios
+### ✅ Aulas 48 a 53 — Métodos Avançados e Exercícios
 
-✅ Aula 48 – Parâmetros tipo primitivo
+### ✅ Aula 48 – Parâmetros tipo primitivo
 - Aprendi como passar valores primitivos para métodos
 - Entendi que os tipos primitivos são passados por valor, ou seja, alterações dentro do método não afetam a variável original
 - Pratiquei criando métodos que recebem int, double e char como parâmetros
 
-✅ Aula 49 – Parâmetros tipo referência
+### ✅ Aula 49 – Parâmetros tipo referência
 - Aprendi que objetos são passados por referência, ou seja, alterações feitas dentro do método afetam o objeto original
 - Testei isso usando arrays e classes próprias, como Funcionario e Estudante
 
-✅ Aula 50 – Parâmetros tipo referência pt 02
+### ✅ Aula 50 – Parâmetros tipo referência pt 02
 - Continuei praticando alterações em objetos dentro de métodos
 - Entendi a diferença entre criar um novo objeto dentro do método e alterar o objeto existente
 
-✅ Aula 51 – Referência this
+### ✅ Aula 51 – Referência this
 - Aprendi sobre a palavra-chave this para referir-se ao próprio objeto
 - Usei this para diferenciar atributos da classe de variáveis locais e parâmetros do método
 
-✅ Aula 52 – Varargs
+### ✅ Aula 52 – Varargs
 - Aprendi a usar varargs para passar quantidade variável de argumentos a um método
 - Facilita a criação de métodos que podem receber 1, 2 ou mais valores sem precisar de sobrecarga
 
-✅ Aula 53 – Exercício
+### ✅ Aula 53 – Exercício
 - Coloquei em prática todos os conceitos das aulas anteriores
 - Criei métodos que manipulam tipos primitivos, objetos, arrays e varargs
 - Testei cada método em classes CalculadoraTest, EstudanteTest e FuncionarioTest
+
+### ✅ Aulas 54 a 60 — Encapsulamento, Sobrecarga, Construtores e Blocos de Inicialização
+
+### ✅Aula 54 – Exemplo prático com arrays e métodos
+Criei a classe Funcionario01 com nome, idade e array de salários
+Implementei método para imprimir dados e calcular média salarial
+
+### ✅Aula 55 – Encapsulamento
+-Criei a classe Pessoa com atributos privados (private)
+-Usei getters e setters para controlar acesso e validação (ex.: idade não pode ser negativa)
+
+### ✅Aula 56 – Sobrecarga de métodos (overloading)
+-Criei a classe Anime com método init sobrecarregado
+-Pratiquei reutilização de código chamando um método dentro do outro
+
+### ✅Aula 57 – Construtores
+-Aprendi a criar construtores com e sem parâmetros
+-Utilizei this() e this(…) para evitar duplicação de código
+-Criei construtores encadeados na classe Anime
+
+### ✅Aula 58 – Inicialização com construtores
+-Substituí métodos init por construtores
+-Criei instâncias de objetos já inicializados no construtor
+
+### ✅Aula 59 – Blocos de inicialização
+-Criei blocos de inicialização que são executados antes dos construtores
+-Usei para inicializar arrays de episódios automaticamente
+
+### ✅Aula 60 – Exercício com blocos e construtores
+-Testei ordem de execução: bloco → construtor → métodos
+-Fixei diferenças entre inicialização manual, construtor e blocos
 
 ## 📁 Estrutura do Projeto
 ```bash
@@ -202,11 +233,11 @@ src/
     ├── javacore/
     │   ├── introducaoclasses/
     │   │   ├── dominio/
-    │   │   │   ├── carro.java
+    │   │   │   ├── Carro.java
     │   │   │   ├── Estudante.java
     │   │   │   └── Professor.java
     │   │   └── test/
-    │   │       ├── carroTest01.java
+    │   │       ├── CarroTest01.java
     │   │       ├── EstudanteTest01.java
     │   │       ├── EstudanteTest02.java
     │   │       └── ProfessorTest01.java
@@ -216,7 +247,7 @@ src/
     │   │   │   ├── Estudante.java
     │   │   │   ├── Funcionario.java
     │   │   │   ├── ImpressoraEstudante.java
-    │   │   │   └── impressoraFuncionario.java
+    │   │   │   └── ImpressoraFuncionario.java
     │   │   └── test/
     │   │       ├── CalculadoraTest01.java
     │   │       ├── CalculadoraTest02.java
@@ -226,6 +257,28 @@ src/
     │   │       ├── EstudanteTest01.java
     │   │       ├── EstudanteTest02.java
     │   │       ├── FuncionarioTest01.java
+    │   ├── Bintroducaometodos/
+    │   │   ├── dominio/
+    │   │   │   ├── Funcionario01.java
+    │   │   │   └── Pessoa.java
+    │   │   └── test/
+    │   │       ├── FuncionarioTest02.java
+    │   │       └── PessoaTest01.java
+    │   ├── Csobrecargametodos/
+    │   │   ├── dominio/
+    │   │   │   └── Anime.java
+    │   │   └── test/
+    │   │       └── AnimeTest01.java
+    │   ├── Dconstrutores/
+    │   │   ├── dominio/
+    │   │   │   └── Anime.java
+    │   │   └── test/
+    │   │       └── AnimeTest01.java
+    │   ├── Eblocosinicializacao/
+    │   │   ├── dominio/
+    │   │   │   └── Anime.java
+    │   │   └── test/
+    │   │       └── AnimeTest01.java
     └── Desafios/
         ├── desafio01.java
         ├── desafio02.java
@@ -237,5 +290,3 @@ src/
         ├── desafio08.java
         ├── desafio09.java
         └── desafio010.java
-  
-                    
