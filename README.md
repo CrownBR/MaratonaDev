@@ -193,33 +193,33 @@
 ### ✅ Aulas 54 a 60 — Encapsulamento, Sobrecarga, Construtores e Blocos de Inicialização
 
 ### ✅Aula 54 – Exemplo prático com arrays e métodos
-Criei a classe Funcionario01 com nome, idade e array de salários
-Implementei método para imprimir dados e calcular média salarial
+- Criei a classe Funcionario01 com nome, idade e array de salários
+- Implementei método para imprimir dados e calcular média salarial
 
 ### ✅Aula 55 – Encapsulamento
--Criei a classe Pessoa com atributos privados (private)
--Usei getters e setters para controlar acesso e validação (ex.: idade não pode ser negativa)
+- Criei a classe Pessoa com atributos privados (private)
+- Usei getters e setters para controlar acesso e validação (ex.: idade não pode ser negativa)
 
 ### ✅Aula 56 – Sobrecarga de métodos (overloading)
--Criei a classe Anime com método init sobrecarregado
--Pratiquei reutilização de código chamando um método dentro do outro
+- Criei a classe Anime com método init sobrecarregado
+- Pratiquei reutilização de código chamando um método dentro do outro
 
 ### ✅Aula 57 – Construtores
--Aprendi a criar construtores com e sem parâmetros
--Utilizei this() e this(…) para evitar duplicação de código
--Criei construtores encadeados na classe Anime
+- Aprendi a criar construtores com e sem parâmetros
+- Utilizei this() e this(…) para evitar duplicação de código
+- Criei construtores encadeados na classe Anime
 
 ### ✅Aula 58 – Inicialização com construtores
--Substituí métodos init por construtores
--Criei instâncias de objetos já inicializados no construtor
+- Substituí métodos init por construtores
+- Criei instâncias de objetos já inicializados no construtor
 
 ### ✅Aula 59 – Blocos de inicialização
--Criei blocos de inicialização que são executados antes dos construtores
--Usei para inicializar arrays de episódios automaticamente
+- Criei blocos de inicialização que são executados antes dos construtores
+- Usei para inicializar arrays de episódios automaticamente
 
 ### ✅Aula 60 – Exercício com blocos e construtores
--Testei ordem de execução: bloco → construtor → métodos
--Fixei diferenças entre inicialização manual, construtor e blocos
+- Testei ordem de execução: bloco → construtor → métodos
+- Fixei diferenças entre inicialização manual, construtor e blocos
 
 ## 📁 Estrutura do Projeto
 ```bash
